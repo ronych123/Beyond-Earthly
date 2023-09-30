@@ -511,7 +511,7 @@ body {
     }
     .third-sentence {
         text-align: center;
-        width: 100%;
+        width: 350px;
         line-height: 1.5;  
     }
     .first-sentence, .second-sentence, .third-sentence {
