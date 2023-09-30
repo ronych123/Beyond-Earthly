@@ -171,7 +171,7 @@ body {
         width: 0px;
     }
 }
-@media (min-width: 650px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
     body {
         margin: 0;
         padding: 0;
@@ -287,7 +287,7 @@ body {
 }
 
 
-@media (min-width: 0px) and (max-width: 649px) {
+@media (min-width: 481px) and (max-width: 766px) {
     .image {
         width: 100%;
     }
@@ -377,7 +377,7 @@ body {
         order: 6;
         margin-left: 0px;
         justify-content: center;
-        width: 410px;
+        width: 350px;
         text-align: center;
     }
     
@@ -451,3 +451,336 @@ body {
         border-bottom: 2px solid white;
         }
 }
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .image {
+        width: 100%;
+    }
+    .pick {
+        display: none;
+    }
+    .nav {     
+        position: absolute;
+        z-index: 12;
+        right: 0;
+        width: 61%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .blur-overlay {
+        display: none;
+    }
+    .image-container {
+        position: relative;
+        width: 100%;
+        height: 1100px;
+        overflow: hidden;
+    }
+    .home-background {
+        content: url('crew/background-crew-mobile.jpg');
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .left-top-side {
+        position: absolute;
+        top: 25px;
+        left: -25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .main-destination {
+        position: absolute; 
+        top: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0%; 
+    }
+    .pick-none {
+        display: flex;
+        font-family: Roboto Condensed;
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 1.5; 
+        color: white;
+        padding: 0;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -120px;
+    }
+    .margin-the-name {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .image-resizing {
+        order: 1;
+    }
+    .first-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+        width: 100%;
+    }
+    .buttons-style {
+        order: 3;
+    }
+    .role {
+        order: 4;
+    }
+    .name{
+        order: 5;
+    }
+    .bio {
+        order: 6;
+        margin-left: 0px;
+        justify-content: center;
+        width: 350px;
+        text-align: center;
+    }
+    
+    .hamburger {
+        position: absolute;
+        z-index: 12;
+        right: 40px;
+        width: 40px;
+        height: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        top: 35px;
+    } 
+    .line { 
+        border-radius: 10px;
+        width: 40px;
+        height: 4px;
+        background-color: #fff; /* Color of the lines */
+    }
+    .hamburger-toggle {
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        z-index: 11;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: blur(95px);
+    }
+    .menu-x-toggle {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: end;
+        width: 89%;
+        height: 58px;
+        cursor: pointer;
+        top: 35px;
+    }
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        width: 100%;
+        height: 40%;
+        color: white;
+    }
+    .ho, .des, .cr, .tech {
+        margin-left: 10px;
+        margin-top: 50px;      
+    }
+    .hoa, .desa, .cra, .techa {
+        font-family: Roboto;
+        font-size: 16px;   
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: 0.8s;
+    }
+    .hoa:hover, .desa:hover, .cra:hover, .techa:hover {
+        opacity: 0.5;
+    }
+    .cra {
+        border-bottom: 2px solid white;
+        }
+}
+
+
+@media (max-width: 320px) {
+    .image {
+        width: 100%;
+    }
+    .pick {
+        display: none;
+    }
+    .nav {     
+        position: absolute;
+        z-index: 12;
+        right: 0;
+        width: 61%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .blur-overlay {
+        display: none;
+    }
+    .image-container {
+        position: relative;
+        width: 100%;
+        height: 1100px;
+        overflow: hidden;
+    }
+    .home-background {
+        content: url('crew/background-crew-mobile.jpg');
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .left-top-side {
+        position: absolute;
+        top: 25px;
+        left: -25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .main-destination {
+        position: absolute; 
+        top: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0%; 
+    }
+    .pick-none {
+        display: flex;
+        font-family: Roboto Condensed;
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 1.5; 
+        color: white;
+        padding: 0;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -120px;
+    }
+    .margin-the-name {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .image-resizing {
+        order: 1;
+    }
+    .first-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+        width: 100%;
+    }
+    .buttons-style {
+        order: 3;
+    }
+    .role {
+        order: 4;
+    }
+    .name{
+        order: 5;
+    }
+    .bio {
+        order: 6;
+        margin-left: 0px;
+        justify-content: center;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .hamburger {
+        position: absolute;
+        z-index: 12;
+        right: 40px;
+        width: 40px;
+        height: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        top: 35px;
+    } 
+    .line { 
+        border-radius: 10px;
+        width: 40px;
+        height: 4px;
+        background-color: #fff; /* Color of the lines */
+    }
+    .hamburger-toggle {
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        z-index: 11;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: blur(95px);
+    }
+    .menu-x-toggle {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: end;
+        width: 89%;
+        height: 58px;
+        cursor: pointer;
+        top: 35px;
+    }
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        width: 100%;
+        height: 40%;
+        color: white;
+    }
+    .ho, .des, .cr, .tech {
+        margin-left: 10px;
+        margin-top: 50px;      
+    }
+    .hoa, .desa, .cra, .techa {
+        font-family: Roboto;
+        font-size: 16px;   
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: 0.8s;
+    }
+    .hoa:hover, .desa:hover, .cra:hover, .techa:hover {
+        opacity: 0.5;
+    }
+    .cra {
+        border-bottom: 2px solid white;
+        }
+}
+
+
