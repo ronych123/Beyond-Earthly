@@ -511,7 +511,7 @@ body {
     }
     .third-sentence {
         text-align: center;
-        width: 420px;
+        width: 100%;
         line-height: 1.5;  
     }
     .first-sentence, .second-sentence, .third-sentence {
@@ -685,7 +685,7 @@ body {
     }
     .third-sentence {
         text-align: center;
-        width: 420px;
+        width: 100%;
         line-height: 1.5;  
     }
     .first-sentence, .second-sentence, .third-sentence {
@@ -857,7 +857,7 @@ body {
     }
     .third-sentence {
         text-align: center;
-        width: 420px;
+        width: 100%;
         line-height: 1.5;  
     }
     .first-sentence, .second-sentence, .third-sentence {
