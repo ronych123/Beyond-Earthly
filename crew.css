@@ -1,0 +1,450 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+.nav, .menu, .menu-x {
+    display: none;
+}
+.pick-none {
+    display: none;
+}
+.home-background {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    object-fit: cover;
+}
+.blur-overlay {
+    right: 0;
+    top: 40px;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 770px;
+    height: 75px;    
+    backdrop-filter: blur(95px); /* Apply a blur to the overlay */
+}
+.main-menu {
+    font-family: Roboto;
+    font-size: 13px;
+    color: white;
+}
+.href {
+    text-decoration: none;
+    color: white;
+}
+.numbers {
+    font-family: Roboto;
+    font-size: 13px;
+    color: white;
+    font-weight: 900;
+}
+.home, .destination, .crew, .technology {
+    margin-left: 10px;
+    margin-right: 55px;
+    cursor: pointer;
+    padding: 30px 0px 28px 0px;
+    border: 2px solid transparent;
+    transition: 0.8s;
+}
+.crew {
+    color: white;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+}
+.home:hover, .destination:hover, .crew:hover, .technology:hover {
+    opacity: 0.5;
+}
+.left-top-side {
+    top: 50px;
+    position: fixed;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo {    
+    margin-left: 55px;
+}
+.straight-line {
+    width: 455px;
+    height: 0.5px;
+    background-color: rgb(110, 109, 109);
+    margin-left: 60px;
+}
+.main-destination {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+.first-part {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.count {
+    color: gray;
+    margin-right: 7px;
+    font-weight: bold;
+}
+.pick {
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 1.5; 
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.bio {
+    width: 300px;
+}
+.space-between {
+    width: 65px;
+}
+.role {
+    font-family: Quattrocento;
+    font-weight: 100;
+    font-size: 40px;
+    color: gray;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.name {
+    font-family: Quattrocento;
+    font-weight: 100;
+    font-size: 40px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.bio {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    width: 420px;
+    color: white;
+}
+.spaceBetween {
+    height: 90px;
+}
+.buttons-style {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.button-1, .button-2, .button-3, .button-4 {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(97, 97, 97);
+    margin-left: 15px;
+} 
+.image {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+.is-toggle {
+    background-color: white;
+}
+@media (max-width: 1338px) {
+    .straight-line {
+        width: 0px;
+    }
+}
+@media (min-width: 650px) and (max-width: 1024px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .nav, .menu, .menu-x {
+        display: none;
+    }
+    .pick-none {
+        display: none;
+    }
+    .image-container {
+        position: relative;
+        width: 100%;
+        height: 1099px;
+        overflow: hidden;
+    }
+    .home-background {
+        content: url('crew/background-crew-tablet.jpg');
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .blur-overlay {
+        right: 0;
+        top: 0;
+        position: absolute;
+        z-index: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        width: 550px;
+        height: 100px;        
+        backdrop-filter: blur(95px);
+    }
+    .home, .destination, .crew, .technology {
+        margin-left: 10px;
+        margin-right: 35px;
+        color: rgb(177, 174, 174);
+        cursor: pointer;
+        padding: 40px 0px 40px 0px;
+        border: 2px solid transparent;
+        transition: 0.8s;
+    }
+    .left-top-side {
+        position: absolute;
+        top: 25px;
+        left: -25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .crew {
+        border-bottom: 2px solid white;
+    }
+    .main-destination {
+        position:absolute; 
+        top: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        margin-left: 0px;    
+    }
+    .first-part {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .pick {
+        font-family: Roboto Condensed;
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 1.5; 
+        color: white;
+        padding: 0;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .role, .name{
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .name {
+        margin-bottom: 30px;
+    }
+    .bio {
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 600px;
+        text-align: center;
+    }
+    .spaceBetween {
+        height: 60px;
+    }
+    .buttons-style {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .margin-the-name {
+        margin-left: 20px;
+    }
+    .image {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 649px) {
+    .image {
+        width: 100%;
+    }
+    .pick {
+        display: none;
+    }
+    .nav {     
+        position: absolute;
+        z-index: 12;
+        right: 0;
+        width: 61%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .blur-overlay {
+        display: none;
+    }
+    .image-container {
+        position: relative;
+        width: 100%;
+        height: 1100px;
+        overflow: hidden;
+    }
+    .home-background {
+        content: url('crew/background-crew-mobile.jpg');
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .left-top-side {
+        position: absolute;
+        top: 25px;
+        left: -25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .main-destination {
+        position: absolute; 
+        top: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0%; 
+    }
+    .pick-none {
+        display: flex;
+        font-family: Roboto Condensed;
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 1.5; 
+        color: white;
+        padding: 0;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -120px;
+    }
+    .margin-the-name {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .image-resizing {
+        order: 1;
+    }
+    .first-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+        width: 100%;
+    }
+    .buttons-style {
+        order: 3;
+    }
+    .role {
+        order: 4;
+    }
+    .name{
+        order: 5;
+    }
+    .bio {
+        order: 6;
+        margin-left: 0px;
+        justify-content: center;
+        width: 410px;
+        text-align: center;
+    }
+    
+    .hamburger {
+        position: absolute;
+        z-index: 12;
+        right: 40px;
+        width: 40px;
+        height: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        top: 35px;
+    } 
+    .line { 
+        border-radius: 10px;
+        width: 40px;
+        height: 4px;
+        background-color: #fff; /* Color of the lines */
+    }
+    .hamburger-toggle {
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        z-index: 11;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: blur(95px);
+    }
+    .menu-x-toggle {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: end;
+        width: 89%;
+        height: 58px;
+        cursor: pointer;
+        top: 35px;
+    }
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        width: 100%;
+        height: 40%;
+        color: white;
+    }
+    .ho, .des, .cr, .tech {
+        margin-left: 10px;
+        margin-top: 50px;      
+    }
+    .hoa, .desa, .cra, .techa {
+        font-family: Roboto;
+        font-size: 16px;   
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: 0.8s;
+    }
+    .hoa:hover, .desa:hover, .cra:hover, .techa:hover {
+        opacity: 0.5;
+    }
+    .cra {
+        border-bottom: 2px solid white;
+        }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>TECHNOLOGY</title>
+            <link rel="stylesheet" href="technology.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Faustina&family=Montserrat:wght@400;700&family=Quattrocento:wght@400;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;700&family=Ruwudu:wght@500&display=swap" rel="stylesheet">
+        </head>
+
+        <body>
+
+
+
+            <div class="nav js-nav">  
+                <div class="hamburger" onclick="
+                    adding();
+                    ">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="menu-x"><svg class="grandX" onclick="adding()" xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg></div>
+                <div class="menu">
+                    <div class="ho"> <a class="hoa" href="index.html"> 00 HOME </a> </div>
+                    <div class="des"> <a class="desa" href="destination.html"> 01 DESTINATION </a> </div>
+                    <div class="cr"> <a class="cra" href="crew.html"> 02 CREW </a> </div>
+                    <div class="tech"> <a class="techa" href="technology.html"> 03 TECHNOLOGY </a> </div>
+                </div>
+           </div>
+
+
+
+
+
+            <div class="image-container">
+            <img src="technology/background-technology-desktop.jpg" class="home-background">
+            </div>
+            <div class="left-top-side">    
+                <div class="logo"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    width="48" height="48">
+                    <g fill="none" fill-rule="evenodd">
+                        <circle cx="24" cy="24" r="24" fill="#FFF"/>
+                        <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/>
+                    </g></svg> 
+                </div>
+                <div class="straight-line"></div>
+            </div>
+            <div class="main-menu blur-overlay">
+                <a href="index.html" class="href"> <div class="home"> <span class="numbers">00</span> HOME</div> </a>
+                <a href="destination.html" class="href"> <div class="destination"> <span class="numbers">01</span> DESTINATION</div> </a>
+                <a href="crew.html" class="href"> <div class="crew"> <span class="numbers">02</span> CREW</div> </a>
+                <a href="technology.html" class="href"> <div class="technology"> <span class="numbers">03</span> TECHNOLOGY</div> </a>
+            </div>
+
+
+            <div class="main-destination">
+                    <div>
+                <div class="first-part"> 
+                    <div class="pick">
+                    <span class="count"> 03 </span> SPACE LAUNCH 101
+                    </div>       
+                </div>
+
+                <div class="container-1">
+                    <div class="left-part">
+                        <div class="add-button">
+                            <div class="first-button js-1" id="button-1" onclick="
+                                    isToggle('.js-1');
+                                ">1</div>
+                            <div class="second-button js-2" id="button-2" onclick="
+                            isToggle('.js-2');
+                        ">2</div>
+                            <div class="third-button js-3" id="button-3" onclick="
+                            isToggle('.js-3');
+                        ">3</div>
+                        </div>
+                        <div class="spaceBetween"></div>
+                        <div class="bio">
+                            <div class="sentence-1">THE TERMINOLOGY...</div>
+                            <div class="sentence-2" id="name">Launch vehicle</div>
+                            <div class="sentence-3" id="description">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+                                payload from Earth's surface to space, usually to Earth orbit or beyond. 
+                                Our WEB-X carrier rocket is the most powerful in operation. 
+                                Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <img src="technology/image-launch-vehicle-portrait.jpg" class="img" id="image">
+                    </div>
+                </div>
+
+            </div>
+            </div>
+                
+            <script src="technology.js"> </script>
+        </body>
+    </html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            
+            <title>HOME</title>
+            <link rel="stylesheet" href="index.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Faustina&family=Montserrat:wght@400;700&family=Quattrocento:wght@400;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;700&family=Ruwudu:wght@500&display=swap" rel="stylesheet">
+        </head>
+
+        <body>
+          <div class="nav js-nav">  
+                <div class="hamburger" onclick="
+                    adding();
+                    ">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="menu-x"><svg class="grandX" onclick="adding()" xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg></div>
+                <div class="menu">
+                    <div class="ho"> <a class="hoa" href="index.html"> 00 HOME </a> </div>
+                    <div class="des"> <a class="desa" href="destination.html"> 01 DESTINATION </a> </div>
+                    <div class="cr"> <a class="cra" href="crew.html"> 02 CREW </a> </div>
+                    <div class="tech"> <a class="techa" href="technology.html"> 03 TECHNOLOGY </a> </div>
+                </div>
+           </div>
+            
+            <div class="image-container">
+            <img src="home/background-home-desktop.jpg" class="home-background">
+        </div>
+            <div class="left-top-side">    
+                
+                <div class="logo"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    width="48" height="48">
+                    <g fill="none" fill-rule="evenodd">
+                        <circle cx="24" cy="24" r="24" fill="#FFF"/>
+                        <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/>
+                    </g></svg> 
+                </div>
+            
+                <div class="straight-line"></div>
+                
+            </div>
+            <div class="blur-overlay main-menu">
+                <a href="index.html" class="href"> <div class="home"> <span class="numbers">00</span> HOME</div> </a>
+                <a href="destination.html" class="href"> <div class="destination"> <span class="numbers">01</span> DESTINATION</div> </a>
+                <a href="crew.html" class="href"> <div class="crew"> <span class="numbers">02</span> CREW</div> </a>
+                <a href="technology.html" class="href"> <div class="technology"> <span class="numbers">03</span> TECHNOLOGY</div> </a>
+            </div>
+                <div class="bottom-part">
+                    <div class="first-sentence">SO, YOU WANT TO TRAVEL TO</div>
+                    <div class="second-sentence">SPACE</div>
+                    <div class="third-sentence">Let's face it; if you want to go to space, you might as well
+                        genuinely go to outer space and not hover kind of on the
+                        edge of it. Well sit back, and relax because we'll give you
+                        a truly out of this world experience!
+                    </div>
+                </div>
+
+                <div class="explore-button">
+                    <div class="explore" onclick="
+                            getBack();
+                        ">EXPLORE</div>
+                </div>
+
+
+
+        <div class="video-section-none js-video">
+            <div class="header"> <div class="less-than" onclick="
+                    getBack();
+                "> < </div> <div class="back-to-home"> BACK TO HOME </div> 
+                </div>
+            <div class="video-body">
+
+                <div class="video-container">
+                    <img src="space-videos/NASA mission for 2037 to find life on Europa (jupiters moon) - thumbnail.jpg" class="thumbnails" alt="Video 1"
+                    onclick="showVideo('space-videos/NASA mission for 2037 to find life on Europa (jupiters moon).mp4')">
+                    <div class="video-time">3:22</div>
+                    <div class="video-title">
+                        Nasa Mission - Life In The Oceans Of Europa!
+                    </div>
+                    <div class="video-description">
+                        NASA's mission to explore Europa, one of Jupiter's moons, 
+                        aims to unlock the mysteries of its subsurface ocean and discover potential 
+                        indicators of extraterrestrial life, advancing our search for life beyond Earth.
+                    </div>
+                </div>
+                <div class="video-container">
+                    <img src="space-videos/Earth's Evolution in 10 Minutes.webp" class="thumbnails" alt="Video 2"
+                    onclick="showVideo('space-videos/Earth\'s Evolution in 10 Minutes - thumbnail.mp4')">
+                    <div class="video-time">10:34</div>
+                    <div class="video-title">
+                        Earth's Evolution in 10 Minutes
+                    </div>
+                    <div class="video-description">
+                        In the past few billion years, Earth has been pummeled by asteroids, 
+                        crashed into other planets and frozen over several times. 
+                        Not to mention being ruled by all kinds of crazy lifeforms.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/the guy who jumped from space - thumbnail.webp" class="thumbnails" alt="Video 3"
+                    onclick="showVideo('space-videos/I Jumped From Space World Record Supersonic Freefall.mp4')">
+                    <div class="video-time">3:30</div>
+                    <div class="video-title">
+                        I Jumped From Space
+                    </div>
+                    <div class="video-description">
+                        In 2012 Felix Baumgartner took a helium balloon into the stratosphere and skydived back to earth in a specially made space suit.  
+                        Felix reflects on his achievement and shares what it really felt like to jump from the edge of space.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/artemis1.webp" class="thumbnails" alt="Video 4"
+                    onclick="showVideo('space-videos/NASA s Artemis I Moon Mission Launch to Splashdown Highlights.mp4')">
+                    <div class="video-time">2:02</div>
+                    <div class="video-title">
+                        NASA’s Artemis I Moon Mission
+                    </div>
+                    <div class="video-description">
+                        Ride along with NASA’s Orion capsule on the Artemis I mission around the Moon and back.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/artemis2.webp" class="thumbnails" alt="Video 5"
+                    onclick="showVideo('space-videos/Artemis II Meet the Astronauts Who will Fly Around the Moon Official NASA Video.mp4')">
+                    <div class="video-time">3:06</div>
+                    <div class="video-title">
+                        The Astronauts Who Will Fly Around The Moon
+                    </div>
+                    <div class="video-description">
+                        Artemis II will be NASA’s first crewed flight test of the Space
+                         Launch System rocket and Orion spacecraft around the Moon to 
+                         verify today’s capabilities for humans to explore deep space 
+                         and pave the way for long-term exploration and science on the lunar surface.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/mars2006.webp" class="thumbnails" alt="Video 6"
+                    onclick="showVideo('space-videos/How to Get to Mars.mp4')">
+                    <div class="video-time">6:32</div>
+                    <div class="video-title">
+                        How to Get to Mars.
+                    </div>
+                    <div class="video-description">
+                        In 2006, NASA's rover missions, including Spirit and Opportunity, 
+                        were actively exploring the surface of Mars, 
+                        conducting scientific experiments and sending back valuable data.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/mars2020.jpg" class="thumbnails" alt="Video 7"
+                    onclick="showVideo('space-videos/NASA\'s Mars 2020 Perseverance Rover Landing Animations.mp4')">
+                    <div class="video-time">3:10</div>
+                    <div class="video-title">
+                        NASA's Mars 2020 Perseverance Rover
+                    </div>
+                    <div class="video-description">
+                        The Mars 2020 mission, launched by NASA, successfully landed the Perseverance rover on Mars in February 18, 2021, 
+                        aiming to search for signs of past microbial life and collect samples for future return to Earth.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/solar system planets.webp" class="thumbnails" alt="Video 8"
+                    onclick="showVideo('space-videos/rotation period and speeds.mp4')">
+                    <div class="video-time">0:56</div>
+                    <div class="video-title">
+                        Rotation Period and speeds
+                    </div>
+                    <div class="video-description">
+                        Rotation Period and speeds of Earth and Other Solar System Planets.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/solar system picture.jpg" class="thumbnails" alt="Video 9"
+                    onclick="showVideo('space-videos/how our solar system works.mp4')">
+                    <div class="video-time">0:25</div>
+                    <div class="video-title">
+                        Reality of our solar system
+                    </div>
+                    <div class="video-description">
+                        The solar system is a collection of celestial bodies, 
+                        including the Sun, planets, moons, asteroids, and comets, 
+                        bound together by gravity.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/mars exploration.webp" class="thumbnails" alt="Video 10"
+                    onclick="showVideo('space-videos/Mars Exploration Zones.mp4')">
+                    <div class="video-time">6:51</div>
+                    <div class="video-title">
+                        Mars Exploration Zones
+                    </div>
+                    <div class="video-description">
+                        This concept animation shows just one of many potential concepts for how the first 
+                        human landing site on Mars might evolve throughout 
+                        the course of multiple human expeditions to the Red Planet over a decade or more.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/communication with space.webp" class="thumbnails" alt="Video 11"
+                    onclick="showVideo('space-videos/How Do We Communicate With Spacecraft We Asked a NASA Expert.mp4')">
+                    <div class="video-time">1:58</div>
+                    <div class="video-title">
+                        How Do We Communicate With Spacecraft?
+                    </div>
+                    <div class="video-description">
+                        How Do We Communicate With Spacecraft? We Asked a NASA Expert.
+                        We communicate with spacecraft primarily through radio waves, 
+                        but advancements in laser communications technology are enabling 
+                        faster and more data-intensive communication over longer distances
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/we are not alone.webp" class="thumbnails" alt="Video 12"
+                    onclick="showVideo('space-videos/NASA Has Just Discovered a Planet That Is Even More Suitable for Life than Earth.mp4')">
+                    <div class="video-time">11:08</div>
+                    <div class="video-title">
+                        NASA Has Just Discovered!
+                    </div>
+                    <div class="video-description">
+                        NASA Has Just Discovered a Planet That Is Even More Suitable for Life than Earth!
+                        The search for other life forms is the main goal of many astronomical research projects.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/planets sound.webp" class="thumbnails" alt="Video 12"
+                    onclick="showVideo('space-videos/All Planet Sounds From Space.mp4')">
+                    <div class="video-time">4:39</div>
+                    <div class="video-title">
+                        All Planet Sounds From Space!
+                    </div>
+                    <div class="video-description">
+                        The planets in our solar system do not produce sound in the traditional sense,
+                        as sound requires a medium to propagate through, and space is mostly a vacuum devoid of such a medium,
+                        making space inherently silent.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/asteroid.webp" class="thumbnails" alt="Video 6"
+                    onclick="showVideo('space-videos/nasa asteroid mission.mp4')">
+                    <div class="video-time">0:55</div>
+                    <div class="video-title">
+                        NASA's DART Mission to an Asteroid
+                    </div>
+                    <div class="video-description">
+                        On Sept. 26, 2022, NASA's Double Asteroid Redirection Test (DART) 
+                        spacecraft will intentionally crash into a small asteroid, Dimorphos, 
+                        in a first-ever test of planetary defense, should we ever need it. 
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/cry in space.webp" class="thumbnails" alt="Video 6"
+                    onclick="showVideo('space-videos/Can You Cry In Space.mp4')">
+                    <div class="video-time">1:24</div>
+                    <div class="video-title">
+                        Can You Cry In Space?
+                    </div>
+                    <div class="video-description">
+                        ISS commander Chris Hadfield demonstrates 
+                        what happens to tears if they start 'falling' in Space.
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <img src="space-videos/water recycling.webp" class="thumbnails" alt="Video 6"
+                    onclick="showVideo('space-videos/Water Recycling on the ISS.mp4')">
+                    <div class="video-time">1:52</div>
+                    <div class="video-title">
+                        Water Recycling on the ISS
+                    </div>
+                    <div class="video-description">
+                        Water is precious on the International Space Station.  
+                        CSA Astronaut Chris Hadfield demonstrates 
+                        how the Water Recovery System preserves this resource 
+                        to make the ISS a self-sustaining environment. 
+                    </div>
+                </div>
+
+               
+
+                </div>                 
+
+
+                <div class="video-popup" id="video-popup">
+                    <div class="video-container-main" id="fixed-element">
+                        <video width="320" height="240" controls id="popup-video" class="popup-video">
+                            Your browser does not support the video tag.
+                        </video>
+                        <button class="close-button" onclick="closeVideo()">Close</button>
+                    </div>
+                </div>    
+              
+
+                </div>
+            </div>
+            
+            <script src="index.js"> </script>
+        </body>
+    </html>
