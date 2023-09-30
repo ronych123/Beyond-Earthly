@@ -369,9 +369,11 @@ body {
     }
     .role {
         order: 4;
+        font-size: 25px;
     }
     .name{
         order: 5;
+        font-size: 25px;
     }
     .bio {
         order: 6;
@@ -379,6 +381,7 @@ body {
         justify-content: center;
         width: 350px;
         text-align: center;
+        font-size: 15px;
     }
     
     .hamburger {
@@ -534,9 +537,11 @@ body {
     }
     .role {
         order: 4;
+        font-size: 25px;
     }
     .name{
         order: 5;
+        font-size: 25px;
     }
     .bio {
         order: 6;
@@ -544,6 +549,7 @@ body {
         justify-content: center;
         width: 350px;
         text-align: center;
+        font-size: 15px;
     }
     
     .hamburger {
@@ -700,9 +706,11 @@ body {
     }
     .role {
         order: 4;
+        font-size: 25px;
     }
     .name{
         order: 5;
+        font-size: 25px;
     }
     .bio {
         order: 6;
@@ -710,6 +718,7 @@ body {
         justify-content: center;
         width: 300px;
         text-align: center;
+        font-size: 15px;
     }
     
     .hamburger {
