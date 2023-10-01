@@ -209,7 +209,7 @@ body {
 }
 @media (min-width: 767px) and (max-width: 1024px) {
     .main-destination {
-        top: -200px;
+        margin-top: -200px;
     }
     .nav, .menu, .menu-x {
         display: none;
