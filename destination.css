@@ -428,6 +428,9 @@ body {
         margin-left: 0px;
         justify-content: center;
     }
+    .moon-image-main {
+        width: 325px;
+    }
     .description {
         margin-left: 0px;
         justify-content: center;
