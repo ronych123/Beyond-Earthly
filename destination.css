@@ -209,7 +209,8 @@ body {
 }
 @media (min-width: 767px) and (max-width: 1024px) {
     .main-destination {
-    height: 80%;
+    width: 80%;
+    height: 50%;
     }
     .nav, .menu, .menu-x {
         display: none;
