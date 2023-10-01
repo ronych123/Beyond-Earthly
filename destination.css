@@ -209,7 +209,7 @@ body {
 }
 @media (min-width: 767px) and (max-width: 1024px) {
     .main-destination {
-        margin-top: -140px;
+        margin-top: 0px;
     }
     .is-toggle {
     border-bottom: 2px solid white;
