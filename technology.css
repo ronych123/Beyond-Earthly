@@ -1,8 +1,6 @@
 body {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-       
-    overflow-x: hidden;
 }
 .nav, .menu, .menu-x{
     display: none;
@@ -190,7 +188,7 @@ body {
         width: 0px;
     }
 }
-@media (min-width: 650px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
     .nav, .menu, .menu-x {
         display: none;
     }
@@ -321,7 +319,7 @@ body {
 }
 
 
-@media (min-width: 0px) and (max-width: 649px) {
+@media (max-width: 766px) {
     .nav {
         position: absolute;
         z-index: 12;
@@ -432,11 +430,18 @@ body {
         width: 80%;
     }
     .sentence-2 {
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 40px;
+        height: 30px;
+        width: 100%;
     }
     .sentence-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
         width: 100%;
+        height: 170px;
         text-align: center;
         vertical-align: middle;
     }
