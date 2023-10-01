@@ -350,6 +350,9 @@ body {
 
 @media (max-width: 766px) {
     /* CSS rules specific to medium-sized screens */
+    .main-destination {
+        width: 325px;
+    }
     .nav {  
         position: absolute;
         z-index: 12;
