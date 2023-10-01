@@ -1,8 +1,6 @@
 body {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-       
-    overflow-x: hidden;
 }
 .nav, .menu, .menu-x {
     display: none;
@@ -347,7 +345,7 @@ body {
     
 }
 
-@media (min-width: 481px) and (max-width: 766px) {
+@media (min-width: 481px) and (max-width: 767px) {
     .nav {  
         position: absolute;
         z-index: 12;
@@ -432,7 +430,7 @@ body {
     .description {
         margin-left: 0px;
         justify-content: center;
-        width: 321px;
+        width: 390px;
         text-align: center;
     }
     .straight-line-2 {
@@ -547,7 +545,9 @@ body {
         }
 }
 
-@media (max-width: 480px) {
+
+
+@media (max-width: 766px) {
     /* CSS rules specific to medium-sized screens */
     .nav {  
         position: absolute;
@@ -635,6 +635,7 @@ body {
         justify-content: center;
         width: 321px;
         text-align: center;
+        height: 80px;
     }
     .straight-line-2 {
         display: none;
@@ -747,3 +748,4 @@ body {
         border-bottom: 2px solid white;
         }
 }
+
