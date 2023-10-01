@@ -314,6 +314,10 @@ body {
     }
 }
 @media (min-width: 767px) and (max-width: 1024px) {
+    .bottom-part {
+    width: 47%;
+    height: 100%;  
+}
     .nav, .menu, .menu-x {
         display: none;
     }
