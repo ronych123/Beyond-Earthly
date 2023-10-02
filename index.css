@@ -318,9 +318,8 @@ body {
         position: fixed;
         z-index: 2;
         width: 47%;
-        height: 85%;
+        height: 90%;
         color: white;
-        top: 200px;
     }
     .nav, .menu, .menu-x {
         display: none;
