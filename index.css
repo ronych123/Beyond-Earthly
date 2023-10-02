@@ -316,7 +316,11 @@ body {
 @media (min-width: 767px) and (max-width: 1024px) {
     .bottom-part {
         position: fixed;
-        top: 40px;
+        z-index: 2;
+        margin-left: 10%;
+        width: 47%;
+        height: 100%;
+        color: white;
     }
     .nav, .menu, .menu-x {
         display: none;
