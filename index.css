@@ -348,6 +348,7 @@ body {
         align-items: center;
         width: 550px;
         height: 100px; 
+        background-color: transparent;
     }
     .left-top-side {
         position: absolute;
