@@ -315,6 +315,7 @@ body {
 }
 @media (min-width: 767px) and (max-width: 1024px) {
     .bottom-part {
+        position: fixed;
         top: 40px;
     }
     .nav, .menu, .menu-x {
