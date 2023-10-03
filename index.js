@@ -101,8 +101,6 @@ const changeButton4 = document.getElementById("changeButton-4");
                     getBackElement.classList.remove('video-section-none');
                     getBackElement.classList.add('video-section');
                     heightElement.classList.add('image-container-a');
-                        const scrollY = window.scrollY ;
-                        scrollY = 0;
                 } 
                 else {
                     getBackElement.classList.remove('video-section');
