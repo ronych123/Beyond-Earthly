@@ -236,7 +236,7 @@ body {
 
 .video-container-main {
     position: fixed;
-    top: 220px;
+    top: 0;
     background-color: lightgray;
     width: 320px;
     height: 240px;
