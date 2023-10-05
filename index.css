@@ -348,6 +348,7 @@ body {
         width: 550px;
         height: 80px; 
         background-color: transparent;
+        backdrop-filter: blur(95px);
     }
     .left-top-side {
         position: absolute;
