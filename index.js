@@ -101,17 +101,14 @@ const changeButton4 = document.getElementById("changeButton-4");
                     getBackElement.classList.remove('video-section-none');
                     getBackElement.classList.add('video-section');
                     heightElement.classList.add('image-container-a');
+                    window.scrollTo(0, 0);
                 } 
                 else {
                     getBackElement.classList.remove('video-section');
                     getBackElement.classList.add('video-section-none');
                     heightElement.classList.remove('image-container-a');
                 }
-                    window.scroll({
-                        top: 0,
-                        left: 0,
-                        behavior: 'smooth'
-                    });
+                    
             }
             
             
