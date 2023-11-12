@@ -119,7 +119,7 @@ const changeButton4 = document.getElementById("changeButton-4");
                 const fixedElement = document.getElementById('fixed-element');
 
                 window.addEventListener('click', function() {
-                    const scrollY = window.scrollY = 0;
+                    const scrollY = window.scrollY;
                     const step = 50; // Adjust the step size as needed
                     const maxScroll = 5500; // Adjust the maximum scroll position as needed
 
@@ -142,7 +142,7 @@ const changeButton4 = document.getElementById("changeButton-4");
                 });
 
                 window.addEventListener('scroll', function() {
-                    const scrollY = window.scrollY = 0;
+                    const scrollY = window.scrollY;
                     const step = 50; // Adjust the step size as needed
                     const maxScroll = 5000; // Adjust the maximum scroll position as needed
 
