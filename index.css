@@ -282,7 +282,7 @@ body {
     margin-top: 10px;
 }
 .video-description {
-    position: fixed;
+    position: sticky;
     color: rgb(180, 178, 178);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
