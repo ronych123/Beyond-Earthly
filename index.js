@@ -107,6 +107,11 @@ const changeButton4 = document.getElementById("changeButton-4");
                     getBackElement.classList.add('video-section-none');
                     heightElement.classList.remove('image-container-a');
                 }
+                    window.scroll({
+                        top: 0,
+                        left: 0,
+                        behavior: 'smooth'
+                    });
             }
             
             
