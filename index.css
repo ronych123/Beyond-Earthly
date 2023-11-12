@@ -74,7 +74,7 @@ body {
     margin-left: 60px;
 }
 .bottom-part {
-    position: fixed;
+    position: sticky;
     z-index: 2;
     display: flex;
     flex-direction: column;
