@@ -132,7 +132,7 @@ const changeButton4 = document.getElementById("changeButton-4");
                         const endPos = positions[i + 1];
                         
                         if (scrollY >= startPos && scrollY <= endPos) {
-                            fixedElement.style.top = `${i * 50}px`; // Adjust the initial position and the increment as needed
+                            fixedElement.style.top = `${220 + i * 50}px`; // Adjust the initial position and the increment as needed
                             break;
                         }
                     }
@@ -155,7 +155,7 @@ const changeButton4 = document.getElementById("changeButton-4");
                         const endPos = positions[i + 1];
                         
                         if (scrollY >= startPos && scrollY <= endPos) {
-                            fixedElement.style.top = `${i * 50}px`; // Adjust the initial position and the increment as needed
+                            fixedElement.style.top = `${220 + i * 50}px`; // Adjust the initial position and the increment as needed
                             break;
                         }
                     }
