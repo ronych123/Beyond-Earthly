@@ -95,20 +95,22 @@ const changeButton4 = document.getElementById("changeButton-4");
             function getBack(){
                 let getBackElement = document.querySelector('.js-video');
                 let heightElement = document.querySelector('.image-container');
-                var BottomPartElement = document.querySelector('.bottom-part');
+                let BottomPartElement = document.querySelector('.js-bottom-part');
 
                 if(!getBackElement.classList.contains('video-section')) {
                     getBackElement.classList.remove('video-section-none');
                     getBackElement.classList.add('video-section');
                     heightElement.classList.add('image-container-a');
+                    BottomPartElement.classList.add('bottom-part-toggle');    
                     window.scrollTo(0, 0);
-                    BottomPartElement.style.display = 'none';
+                    
                 } 
                 else {
                     BottomPartElement.style.display = 'fixed';
                     getBackElement.classList.remove('video-section');
                     getBackElement.classList.add('video-section-none');
                     heightElement.classList.remove('image-container-a');
+                    BottomPartElement.classList.add('bottom-part');
                 }
                     
             }
