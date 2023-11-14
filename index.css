@@ -84,6 +84,9 @@ body {
     height: 130%;
     color: white;
 }
+.bottom-part-toggle {
+    display: none;
+}
 .first-sentence, .second-sentence, .third-sentence {
     margin-bottom: 20px;
     margin-left: 40px;
