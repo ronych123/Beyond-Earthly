@@ -106,7 +106,6 @@ const changeButton4 = document.getElementById("changeButton-4");
                     
                 } 
                 else {
-                    BottomPartElement.style.display = 'fixed';
                     getBackElement.classList.remove('video-section');
                     getBackElement.classList.add('video-section-none');
                     heightElement.classList.remove('image-container-a');
