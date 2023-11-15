@@ -109,6 +109,7 @@ const changeButton4 = document.getElementById("changeButton-4");
                     getBackElement.classList.remove('video-section');
                     getBackElement.classList.add('video-section-none');
                     heightElement.classList.remove('image-container-a');
+                    BottomPartElement.classList.remove('bottom-part-toggle');
                     BottomPartElement.classList.add('bottom-part');
                 }
                     
