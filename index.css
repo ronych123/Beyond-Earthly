@@ -464,8 +464,6 @@ body {
         height: 100%;
         display: flex;
         flex-direction: column;
-        background-color: transparent;
-        backdrop-filter: blur(95px);
     }
     .blur-overlay {
         display: none;
@@ -571,6 +569,7 @@ body {
         height: 100%;
         display: flex;
         flex-direction: column;
+        background-color: transparent;
         backdrop-filter: blur(95px);
     }
     .menu-x-toggle {
