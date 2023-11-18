@@ -102,7 +102,8 @@ const changeButton4 = document.getElementById("changeButton-4");
                     getBackElement.classList.add('video-section');
                     heightElement.classList.add('image-container-a');
                     BottomPart.classList.remove('bottom-part');    
-                    BottomPart.classList.add('bottom-part-toggle');    
+                    BottomPart.classList.add('bottom-part-toggle');
+                    logo.classList.add('logo-toggle');
                     window.scrollTo(0, 0);
                     
                 } 
@@ -112,6 +113,7 @@ const changeButton4 = document.getElementById("changeButton-4");
                     heightElement.classList.remove('image-container-a');
                     BottomPart.classList.remove('bottom-part-toggle');
                     BottomPart.classList.add('bottom-part');
+                    logo.classList.remove('logo-toggle');
                 }
                     
             }
