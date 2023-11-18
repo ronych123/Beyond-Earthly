@@ -67,6 +67,9 @@ body {
 .logo {    
     margin-left: 55px;
 }
+.logo-toggle {
+    display: none;
+}
 .straight-line {
     width: 455px;
     height: 0.5px;
