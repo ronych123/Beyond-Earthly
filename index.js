@@ -103,8 +103,9 @@ const changeButton4 = document.getElementById("changeButton-4");
                     heightElement.classList.add('image-container-a');
                     BottomPart.classList.remove('bottom-part');    
                     BottomPart.classList.add('bottom-part-toggle');
-                    logo.classList.add('logo-toggle');
                     window.scrollTo(0, 0);
+                    logo.classList.add('logo-toggle');
+                    
                     
                 } 
                 else {
