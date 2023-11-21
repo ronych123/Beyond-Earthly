@@ -96,7 +96,7 @@ const changeButton4 = document.getElementById("changeButton-4");
                 let getBackElement = document.querySelector('.js-video');
                 let heightElement = document.querySelector('.image-container');
                 let BottomPart = document.querySelector('.js-bottom-part');
-              
+                let logo = document.querySelector('.js-logo');
                 let ham = document.querySelector('.js-ham');
 
                 if(!getBackElement.classList.contains('video-section')) {
@@ -105,7 +105,8 @@ const changeButton4 = document.getElementById("changeButton-4");
                     heightElement.classList.add('image-container-a');
                     BottomPart.classList.remove('bottom-part');    
                     BottomPart.classList.add('bottom-part-toggle');
-                
+                    logo.classList.remove('left-top-side'); 
+                    logo.classList.add('logo-toggle');
                     ham.classList.remove('hamburger');
                     ham.classList.add('hamburger-toggle');
                     window.scrollTo(0, 0); 
@@ -116,7 +117,8 @@ const changeButton4 = document.getElementById("changeButton-4");
                     heightElement.classList.remove('image-container-a');
                     BottomPart.classList.remove('bottom-part-toggle');
                     BottomPart.classList.add('bottom-part');
-               
+                    logo.classList.remove('logo-toggle');
+                    logo.classList.add('left-top-side');
                     ham.classList.remove('hamburger-toggle');
                     ham.classList.add('hamburger');
                     window.scrollTo(0, 0);
